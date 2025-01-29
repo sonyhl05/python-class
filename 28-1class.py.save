@@ -1,0 +1,9 @@
+import pandas as pd
+import json as 
+#print(dir(pd))
+def read_excel_content(excel_file_path):
+   data=pd.read_excel(excel_file_path)
+   print(data)
+excel_file_path="/home/ubuntu/python-class/sample.xlsx"
+
+read_excel_content(excel_file_path)
